@@ -1,8 +1,8 @@
 const model = require('../../Models/Profesores') 
 
 const options = {
-    page:1,//aquí iria el valor de query
-    limit:10
+    page:2,//aquí iria el valor de query
+    limit:2
 }
 
 const getController = async () => {
