@@ -7,7 +7,7 @@ const uploadHandler = require('./Handlers/uploadHandler');
 const getHandlerCursos = require('./Handlers/getHandlerCursos');
 const postHandlerCursos = require('./Handlers/postHandlerCursos')
 const { upload } = require('./Controllers/uploadController');
-
+const Felipe = 0;
 
 Santiago.get('/profesores', getHandler);
 
