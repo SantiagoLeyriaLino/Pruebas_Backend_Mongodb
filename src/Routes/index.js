@@ -6,6 +6,7 @@ const deleteHandler = require('./Handlers/deleteHandler');
 const uploadHandler = require('./Handlers/uploadHandler');
 const getHandlerCursos = require('./Handlers/getHandlerCursos');
 const postHandlerCursos = require('./Handlers/postHandlerCursos')
+const putHandlerAsingTeacher = require('./Handlers/putHandlerAsingTeacher')
 const { upload } = require('./Controllers/uploadController');
 const Felipe = 0;
 
@@ -21,7 +22,9 @@ Santiago.post("/upload",upload, uploadHandler);
 
 Santiago.get('/cursos',getHandlerCursos);
 
-Santiago.post('/cursos', postHandlerCursos)
+Santiago.post('/cursos', postHandlerCursos);
+
+Santiago.put('/cursos/asingTeacher/:id', putHandlerAsingTeacher)
 
 
 module.exports = Santiago;
