@@ -5,7 +5,7 @@ const getHandlerCursos = async(req, res) =>{
         let info = await getControllerCursos();
         res.status(200).json(info)
     }catch(err){
-        res.estatus(400).json({error:err.message})
+        res.status(400).json({error:err.message})
     }
 }
 
