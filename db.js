@@ -6,7 +6,7 @@ module.exports=()=>{
     const connect =()=>{
         try{
             mongoose.connect(
-                "mongodb+srv://leyrialinosantiago:<password>@tienda.oq4bce2.mongodb.net/",
+                "mongodb+srv://leyrialinosantiago:Nahuel11012001@tienda.oq4bce2.mongodb.net/",
                 {
                     keepAlive:true,
                     useNewUrlParser:true,
